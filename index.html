@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="loader">
+        <header>
+            <h1 class="head-top-left">Movie Time</h1> <!-- Fixed a typo here: missing closing tag </h1> -->
+            <form id="form">
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search"
+                    class="search"
+                />
+            </form>
+        </header>
+        <main id="main" class="swiper-container">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+        </main>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="script.js"></script> 
+    </div>
+    
+</body>
+</html>

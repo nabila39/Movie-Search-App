@@ -13,7 +13,7 @@ This Movie Search App is a simple web application built using Vanilla JavaScript
 7. As a user, I want the app to remember my search history.
 
 ## Live Link
-[Movie Search App](#) 
+[Movie Search App]('https://nabila39.github.io/Movie-Search-App/') 
 
 ## Instructions to Run Locally
 To run this project locally, follow these steps:
